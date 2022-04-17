@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    scrollbar-color: rgb(251, 186, 170);
+}
+
+.main{
+    width: 100%;
+    height: auto;
+    background: rgb(34, 173, 204);
+    background-repeat: repeat-y;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+#navbar{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    min-width: 18vw;
+    width: 22vw;
+    height: 100%;
+    border-left: 5px solid rgb(251, 186, 170);
+    background-color: rgb(251, 186, 170);
+
+}
+
+#navbar header{
+    color: black;
+    font-size: 2.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#navbar ul{
+    
+    height: 86%;
+    padding: 1.5em;
+    overflow-y: auto;
+    scrollbar-color: rgb(251, 186, 170);
+}
+
+#navbar ul li{
+    list-style: none;
+    border-top: 1px solid rgb(247, 132, 103);
+    width: 88%;
+    padding: 8px;
+    
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: rgb(93, 20, 2);
+    font-size: 1.6em;
+}
+
+#main-doc{
+    height: auto;
+    width: 74vw;
+    position: relative;
+    left: 24vw;
+    top: 3vh;
+}
+
+#main-doc article{
+    height: auto;
+    width: auto;
+    background-color: rgb(148, 231, 249);
+    margin-bottom: 5vh;
+    border-radius: 6px;
+    padding: 2vw;
+    
+}
+
+#main-doc header{
+    color: rgb(32, 32, 32);
+    font-size: 2.2em;
+    font-weight: bold;
+
+}
+
+#main-doc p{
+    font-size: 1.2em;
+}
+
+#main-doc code{
+    background-color:rgb(92, 218, 246);
+}
